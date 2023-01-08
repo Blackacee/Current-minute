@@ -1,2 +1,5 @@
 # Current-minute
-Current minute code in JS 
+
+var minutes = (new Date()).getMinutes();
+console.log(minutes);
+// Sample output: 39
